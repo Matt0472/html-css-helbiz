@@ -139,19 +139,20 @@ header {
 }
 
 /* main */
-
+.padding_30 {
+  padding: 30px;
+}
 .back_grey {
-  text-align: center;
   background-color: rgb(250, 250, 250);
-  width: 45%;
-  margin: 80px 2.5%;
+  text-align: center;
+  /* width: 45%; */
 }
 
-.back_grey img {
+/* .back_grey img {
   display: block;
   margin: 0 auto;
   padding: 30px;
-}
+} */
 .back_grey h4 {
   color: rgb(110, 112, 115);
   font-size: 2.5em;
