@@ -6,7 +6,7 @@ body {
   font-size: 10px;
   background-color: red;
 }
-
+/* header */
 .container_1000 {
   max-width: 1000px;
   margin: 0 auto;
@@ -136,4 +136,39 @@ header {
   .jumbo_text a img {
     width: 100%;
   }
+}
+
+/* main */
+
+.back_grey {
+  text-align: center;
+  background-color: rgb(250, 250, 250);
+  width: 45%;
+  margin: 80px 2.5%;
+}
+
+.back_grey img {
+  display: block;
+  margin: 0 auto;
+  padding: 30px;
+}
+.back_grey h4 {
+  color: rgb(110, 112, 115);
+  font-size: 2.5em;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+.back_grey a {
+  text-decoration: none;
+  font-size: 1.8em;
+  color: rgb(19, 122, 204);
+}
+.back_grey a:hover {
+  text-decoration: underline;
+}
+.main_logo {
+  width: 250px;
+}
+.main_move {
+  width: 280px;
 }
